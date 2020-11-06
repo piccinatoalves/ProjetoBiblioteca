@@ -1,0 +1,9 @@
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\bin\Debug\netstandard2.0\ProjBiblioteca.Domain.deps.json
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\bin\Debug\netstandard2.0\ProjBiblioteca.Domain.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\bin\Debug\netstandard2.0\ProjBiblioteca.Domain.pdb
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\obj\Debug\netstandard2.0\ProjBiblioteca.Domain.csprojAssemblyReference.cache
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\obj\Debug\netstandard2.0\ProjBiblioteca.Domain.AssemblyInfoInputs.cache
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\obj\Debug\netstandard2.0\ProjBiblioteca.Domain.AssemblyInfo.cs
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\obj\Debug\netstandard2.0\ProjBiblioteca.Domain.csproj.CoreCompileInputs.cache
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\obj\Debug\netstandard2.0\ProjBiblioteca.Domain.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.Domain\obj\Debug\netstandard2.0\ProjBiblioteca.Domain.pdb
