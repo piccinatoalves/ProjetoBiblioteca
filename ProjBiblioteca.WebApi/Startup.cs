@@ -12,6 +12,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ProjBiblioteca.Infrastructure.Data.Context;
+using ProjBiblioteca.Infrastructure.IoC;
+using Newtonsoft;
+using ProjBiblioteca.WebApi.Filters;
+using FluentValidation.AspNetCore;
+using ProjBiblioteca.Application.InputModels;
 
 namespace ProjBiblioteca.WebApi
 {
@@ -28,9 +33,25 @@ namespace ProjBiblioteca.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
+            services.AddMvc(opt =>
+            {
+                opt.Filters.Add(typeof(ValidatorActionFilter));
+            }).AddFluentValidation(fvc => 
+            fvc.RegisterValidatorsFromAssemblyContaining<LivroInputModelValidator>());
 
             string conn = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<BibliotecaDbContext>(options=>options.UseNpgsql(conn));
+            
+            DependecyContainer.RegisterMappers(services);
+
+            DependecyContainer.RegisterContexts(services, conn);
+            
+            DependecyContainer.RegisterServices(services);
+           
+            // Adicionar no final do método:
+            services.AddControllers().AddNewtonsoftJson(options=>
+                options.SerializerSettings.ReferenceLoopHandling=
+                    Newtonsoft.Json.ReferenceLoopHandling.Ignore);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -11,6 +11,7 @@ C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
@@ -27,9 +28,13 @@ C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Application.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Domain.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Infrastructure.Data.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Infrastructure.IoC.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Infrastructure.Data.pdb
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Infrastructure.IoC.pdb
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Application.pdb
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\ProjBiblioteca.Domain.pdb
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\obj\Debug\netcoreapp3.1\ProjBiblioteca.WebApi.csprojAssemblyReference.cache
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\obj\Debug\netcoreapp3.1\ProjBiblioteca.WebApi.AssemblyInfoInputs.cache
@@ -43,4 +48,13 @@ C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\obj\Debug\netcoreapp
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\obj\Debug\netcoreapp3.1\ProjBiblioteca.WebApi.dll
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\obj\Debug\netcoreapp3.1\ProjBiblioteca.WebApi.pdb
 C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\obj\Debug\netcoreapp3.1\ProjBiblioteca.WebApi.genruntimeconfig.cache
-C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\picci\Desktop\PROJBIBLIOTECA\ProjBiblioteca.WebApi\obj\Debug\netcoreapp3.1\ProjBiblioteca.WebApi.MvcApplicationPartsAssemblyInfo.cs

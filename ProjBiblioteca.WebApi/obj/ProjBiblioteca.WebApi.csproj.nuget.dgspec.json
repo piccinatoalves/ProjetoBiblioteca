@@ -1,17 +1,86 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj": {}
+    "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj": {
+    "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Application\\ProjBiblioteca.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj",
-        "projectName": "ProjBiblioteca.Domain",
-        "projectPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Application\\ProjBiblioteca.Application.csproj",
+        "projectName": "ProjBiblioteca.Application",
+        "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Application\\ProjBiblioteca.Application.csproj",
         "packagesPath": "C:\\Users\\picci\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\obj\\",
+        "outputPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\picci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj",
+        "projectName": "ProjBiblioteca.Domain",
+        "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj",
+        "packagesPath": "C:\\Users\\picci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\picci\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,6 +105,14 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -57,14 +134,14 @@
         }
       }
     },
-    "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj": {
+    "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj",
         "projectName": "ProjBiblioteca.Infrastructure.Data",
-        "projectPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj",
+        "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\picci\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\picci\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +155,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj": {
-                "projectPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj"
+              "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj"
               }
             }
           }
@@ -134,14 +211,89 @@
         }
       }
     },
-    "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj": {
+    "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.IoC\\ProjBiblioteca.Infrastructure.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj",
-        "projectName": "ProjBiblioteca.WebApi",
-        "projectPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.IoC\\ProjBiblioteca.Infrastructure.IoC.csproj",
+        "projectName": "ProjBiblioteca.Infrastructure.IoC",
+        "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.IoC\\ProjBiblioteca.Infrastructure.IoC.csproj",
         "packagesPath": "C:\\Users\\picci\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\picci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Application\\ProjBiblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Application\\ProjBiblioteca.Application.csproj"
+              },
+              "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Domain\\ProjBiblioteca.Domain.csproj"
+              },
+              "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj",
+        "projectName": "ProjBiblioteca.WebApi",
+        "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\ProjBiblioteca.WebApi.csproj",
+        "packagesPath": "C:\\Users\\picci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\picci\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -155,8 +307,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj": {
-                "projectPath": "c:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj"
+              "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.Data\\ProjBiblioteca.Infrastructure.Data.csproj"
+              },
+              "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.IoC\\ProjBiblioteca.Infrastructure.IoC.csproj": {
+                "projectPath": "C:\\Users\\picci\\Desktop\\PROJBIBLIOTECA\\ProjBiblioteca.Infrastructure.IoC\\ProjBiblioteca.Infrastructure.IoC.csproj"
               }
             }
           }
@@ -170,6 +325,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
